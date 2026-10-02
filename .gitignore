@@ -1,0 +1,7 @@
+data/
+exports/
+*.duckdb
+*.duckdb.wal
+.ipynb_checkpoints/
+.DS_Store
+*.pbix
