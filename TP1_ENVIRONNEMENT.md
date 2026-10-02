@@ -14,7 +14,7 @@ code .
 
 Si `code` n'est pas reconnu, ouvrir VS Code puis Fichier → Ouvrir un dossier.
 
-Créer sa branche : `git switch -c binome-NOM1-NOM2`.
+Créer sa branche : `git switch -c NOM-Prenom`.
 
 ## 2. Connecter VS Code à Colab — 25 min
 
@@ -50,6 +50,6 @@ git commit -m "TP1 : environnement et premières requêtes"
 
 Avant le commit, utiliser « Clear All Outputs » si les sorties sont volumineuses. Ne pas committer les CSV ni la base. Le `.gitignore` fourni les exclut dans `data/` et `exports/`.
 
-**À rendre :** notebook exécuté pendant la séance, réponses aux cinq phrases finales et commit. Chaque membre doit pouvoir expliquer où s'exécute le code et modifier le filtre d'une requête.
+**À rendre :** notebook exécuté pendant la séance, réponses aux cinq phrases finales et commit. Vous devez pouvoir expliquer où s'exécute le code et modifier le filtre d'une requête.
 
 **IA :** autorisée comme aide au dépannage si son usage est indiqué dans une cellule de notes (question posée, aide retenue, vérification effectuée). Une réponse générée doit être vérifiée. Le travail sera aussi évalué par une courte modification en direct.

@@ -73,4 +73,4 @@ Chercher ensuite une source indépendante pour tester votre explication. Écrire
 
 **À rendre :** `.pbix`, capture des deux pages et verdict de 150–250 mots. Sauvegarder les exports séparément. Le `.pbix` peut être remis sur la plateforme de cours ; ne pas envoyer des fichiers volumineux sur Git sans consigne.
 
-Chaque binôme présentera un filtre en direct et expliquera une valeur. Le rapport est évalué sur la fiabilité du modèle et le raisonnement, pas sur le nombre de graphiques.
+Chaque étudiant présentera un filtre en direct et expliquera une valeur. Le rapport est évalué sur la fiabilité du modèle et le raisonnement, pas sur le nombre de graphiques.

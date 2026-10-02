@@ -45,4 +45,4 @@ git commit -m "TP2 : pipeline et observations"
 
 Pour récupérer les fichiers dans Colab navigateur : onglet Fichiers → `exports` → Télécharger. Depuis VS Code, les fichiers sont distants ; si l'extension ne permet pas de les récupérer, ouvrir les notebooks dans Colab navigateur et les réexécuter. Les deux interfaces ne partagent pas nécessairement la même session.
 
-**IA et vérification :** noter les aides utilisées. Chaque binôme doit justifier une règle de nettoyage, modifier un filtre ou une requête devant l'enseignant et expliquer pourquoi son candidat est intéressant. L'usage d'IA ne se déduit pas d'une réponse isolée.
+**IA et vérification :** noter les aides utilisées. Vous devez justifier une règle de nettoyage, modifier un filtre ou une requête devant l'enseignant et expliquer pourquoi votre candidat est intéressant. L'usage d'IA ne se déduit pas d'une réponse isolée.
