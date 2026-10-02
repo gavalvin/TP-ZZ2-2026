@@ -71,6 +71,20 @@ Retrouver dans Power BI trois valeurs calculées en SQL, avec le même réseau e
 
 Chercher ensuite une source indépendante pour tester votre explication. Écrire un verdict court : phénomène observé, chiffres, réaction des autres filières, explication étayée et limite. Une différence avec un jour voisin ne suffit pas à prouver une cause.
 
+## Pour aller plus loin — facultatif
+
+Ajouter une troisième page « Étendue » : un visuel qui compare la part de chaque filière, avec la mesure suivante, et une matrice jour x heure sur `reseau_horaire` qui montre si le phénomène se reproduit ailleurs dans le semestre.
+
+```dax
+Part de la filière % =
+DIVIDE(
+    SUM(fact_production[puissance_mw]),
+    CALCULATE(SUM(fact_production[puissance_mw]), ALL(fact_production[filiere]))
+)
+```
+
+Vérifier que la somme des parts d'un même créneau vaut 100 % et expliquer l'effet des mesures absentes sur ce total. Préciser le périmètre (réseau et période) dans le titre du visuel.
+
 **À rendre :** `.pbix`, capture des deux pages et verdict de 150–250 mots. Sauvegarder les exports séparément. Le `.pbix` peut être remis sur la plateforme de cours ; ne pas envoyer des fichiers volumineux sur Git sans consigne.
 
 Chaque étudiant présentera un filtre en direct et expliquera une valeur. Le rapport est évalué sur la fiabilité du modèle et le raisonnement, pas sur le nombre de graphiques.

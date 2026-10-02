@@ -34,6 +34,10 @@ Créer `dim_temps` et `fact_production`, puis vérifier l'unicité des clés et 
 
 Exporter les trois CSV du notebook. Compter environ 2,4 millions de lignes pour la table de faits nationale à neuf filières ; ne pas afficher cette table dans le notebook. Pour un poste Power BI limité, filtrer **après l'enquête** les exports sur le réseau retenu et quelques semaines utiles, et annoncer explicitement ce périmètre.
 
+## Pour aller plus loin — facultatif
+
+Quatre bonus dans le notebook, avant l'export : demandes négatives, part du solaire par mois, nombre de réseaux touchés par jour par une baisse brusque du solaire, et cohérence entre production nette et somme des filières. Le bonus 3 est utile pour tester vos hypothèses : une cause unique à un seul réseau ou un phénomène étendu ? Chaque règle ou décision prise doit être documentée comme dans le reste du TP.
+
 ## 5. Sauvegarder — 5 min
 
 ```bash

@@ -38,6 +38,10 @@ Environ **42 Mo, 266 000 lignes et 61 réseaux** dans la copie vérifiée. Garde
 
 Télécharger puis écrire les trois requêtes du notebook : inventaire, répartition par réseau, sélection de dix lignes. Ne pas créer de graphique. Ne pas charger toute la table dans pandas pour l'analyser : le traitement est effectué par DuckDB.
 
+## Pour aller plus loin — facultatif
+
+Si vous avez terminé avant les autres, traiter les requêtes D, E et F du notebook : réseaux qui ne déclarent pas leur demande, couverture temporelle et nombre de lignes par réseau, puis demande moyenne et pointe. Elles ne remplacent pas les trois requêtes obligatoires et ne dispensent pas du commit demandé. Compléter aussi la cellule de notes sur l'usage de l'IA.
+
 ## 5. Sauvegarder son travail — 10 min
 
 Enregistrer le notebook puis, dans le terminal local :
